@@ -56,7 +56,7 @@ This file `parameters.yml` contains all the settings the pipeline needs to know 
 
 ## Experiments
 
-The *experiments* folder contains the data output & visualization code used in **Santin *et al.* ** This is divided in experiments exploring the *Bdellovibrio* **growth rate** (folder *Growth_rates*) and the number of **Progenies** and **Origins of Replication** (folder *Progenies_&_cell_cycle*). 
+The *experiments* folder contains the data output & visualization code used in Santin *et al.*  This is divided in experiments exploring the *Bdellovibrio* **growth rate** (folder *Growth_rates*) and the number of **Progenies** and **Origins of Replication** (folder *Progenies_&_cell_cycle*). 
 
 Parameters, output files obtained from our pipeline and .rmd file to reproduce the plots are organized as follows:
 
