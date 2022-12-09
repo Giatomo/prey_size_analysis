@@ -11,7 +11,7 @@ The pipeline is written as an R markdown file `Pipeline_final.Rmd`, where the us
 The pipeline contains code to process movies of bdellovibrio containing fluorescent foci and/or cytoplasmic signal & uses phase-contrast to detect the bdelloplasts. As input it needs folders containing
 
 
-* A .tiff or .tiffs of the full phase contrast movie(s); aligned so there is no drift (for instance using [Image Stabalizer](https://imagej.net/plugins/image-stabilizer)
+* A .tiff or .tiffs of the full phase contrast movie(s); aligned so there is no drift (for instance using [Image Stabalizer](https://imagej.net/plugins/image-stabilizer) )
 * A .tiff or .tiffs of the full fluorescent movie(s); aligned so there is no drift 
 * A .tiff or .tiffs of only the first frame of the phase movie(s) (For outline detection if you're using Oufti, see below)
 * The output of either [Oufti](www.oufti.org) or [MicrobeJ](https://microbej.com) segmentation of the bdelloplasts in the first frame of the phase contrast movies. This pipeline was tested with Oufti.
@@ -20,7 +20,7 @@ The pipeline contains code to process movies of bdellovibrio containing fluoresc
 
 Sub-folders representing your conditions and replicates must be inserted in the phase-contrast and fluorescent folders according to the following architecture:
 
-Phase-contrast/Fluorescence
+**Phase-contrast/Fluorescence**
   - Condition A
     - Replicate 1 (put all your tiffs for Phase-contrast/Fluorescence for Condition A Replicate 1 here)
       - Image.tiff
@@ -33,7 +33,7 @@ Phase-contrast/Fluorescence
 
 Sub-folders representing your conditions must be inserted in the outline folder according to the following architecture (This is usefull if you need different Oufti parameter for each condition as you'll end with one Oufti file per batch) :
 
-Phase-contrast/Fluorescence
+**Phase-contrast/Fluorescence**
   - Condition A
     - outlines.mat (or outlines.csv if you're using microbeJ)
 
@@ -80,7 +80,7 @@ If you encounter errors, have a question or a request, please open an [Issue](ht
 
 # Authors
 
-This pipeline is created & maintained by [Thomas Lamot](https://github.com/giatomo). 
+This pipeline is created & maintained by [Thomas Lamot](https://github.com/giatomo) (main) and [Renske van Raaphorst](https://github.com/vrrenske)
 
 # Cite
 
