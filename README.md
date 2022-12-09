@@ -80,7 +80,7 @@ If you encounter errors, have a question or a request, please open an [Issue](ht
 
 # Authors
 
-This pipeline is created & maintained by [Thomas Lamot](https://github.com/giatomo). 
+This pipeline is created & maintained by [Thomas Lamot](https://github.com/giatomo) (main author) and Renske van Raaphorst.
 
 # Cite
 
